@@ -7,19 +7,12 @@ import React from 'react';
 const Hero = () => (
   <section className="usa-hero">
     <div className="grid-container">
-      <div className="usa-hero__callout">
-        <h2 className="usa-hero__heading">
-          <span className="usa-hero__heading--alt">Hero callout:</span>Bring
-          attention to a project priority
+        <h2 className="usa-hero__heading--alt font-heading-l font-family-sans margin-top-0 tablet:margin-bottom-0">
+          Do you want an opportunity to make a difference?
         </h2>
-        <p>
-          Support the callout with some short explanatory text. You don’t need
-          more than a couple of sentences.
-        </p>
-        <a className="usa-button" href="/">
-          Call to action
-        </a>
-      </div>
+        <h2 className="usa-hero__heading margin-top-2">
+          Help us <span className="usa-hero__heading--highlight">design and deliver a digital government</span> with and for the American public
+        </h2>
     </div>
   </section>
 );

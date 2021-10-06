@@ -1,36 +1,27 @@
 module.exports = {
   siteMetadata: {
-    author: 'Foo',
-    title: `Agency Name`,
-    description: `Agency Name (EAC) Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-    Aenean et sapien a leo auctor scelerisque quis nec magna. Sed dictum ante a risus vehicula facilisis.`,
+    author: 'Heather Battaglia',
+    title: `Join the Technology Transformation Services`,
+    description: `The Technology Transformation Services (TTS) mission is to design and deliver a digital government with and for the American public. TTS is part of the General Services Administration (GSA).`,
     navigation: [
       {
-        items: [{ text: 'Home', link: '/' }],
+        items: [{ text: 'Open and upcoming jobs', link: '/' }],
       },
       {
-        items: [{ text: 'Blog', link: '/blog' }],
-      },
-      {
-        items: [{ text: 'Document', link: '/document' }],
-      },
-      {
+        title: 'How we hire',
         items: [
-          { text: 'Document with sidenav', link: '/document-with-sidenav' },
+          { text: 'Hiring process', link: '/' },
+          { text: 'Reading a federal job posting', link: '/' },
+          { text: 'Preparing your resume', link: '/' },
+          { text: 'Compensation and benefits', link: '/' },
         ],
       },
       {
-        title: 'Document submenu',
-        items: [
-          { text: 'Navigation link', link: '/' },
-          { text: 'Navigation link', link: '/' },
-          { text: 'Navigation link', link: '/' },
-        ],
+        items: [{ text: 'Our offices', link: '/document' }],
       },
     ],
     secondaryLinks: [
-      { text: 'Secondary link', link: '/' },
-      { text: 'Another secondary link', link: '/' },
+      { text: 'Sign up for job alerts', link: '/' },
     ],
 
     /**
@@ -114,8 +105,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `blog-posts`,
-        path: `${__dirname}/src/blog-posts`,
+        name: `markdown-pages`,
+        path: `${__dirname}/src/markdown-pages`,
       },
     },
     {

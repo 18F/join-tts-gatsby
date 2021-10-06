@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Link } from 'gatsby';
 /*
   This tagline will appear in your homepage
 */
@@ -9,21 +9,17 @@ const Tagline = () => (
     <div className="grid-row grid-gap">
       <div className="tablet:grid-col-4">
         <h2 className="font-heading-xl margin-top-0 tablet:margin-bottom-0">
-          A tagline highlights your approach
+        Do you want an opportunity to make a difference?
         </h2>
       </div>
       <div className="tablet:grid-col-8 usa-prose">
-        <p>
-          The tagline should inspire confidence and interest, focusing on the
-          value that your overall approach offers to your audience. Use a
-          heading typeface and keep your tagline to just a few words, and don’t
-          confuse or mystify.
+        <p className="usa-intro">
+           We’re looking for candidates who are passionate about helping agencies build, buy, and share technology to better serve the public. Our team focuses on all aspects of digital government including account management, software development, product management, procurement, design, content strategy, cloud migration, outreach, and operations.
         </p>
-        <p>
-          Use the right side of the grid to explain the tagline a bit more. What
-          are your goals? How do you do your work? Write in the present tense,
-          and stay brief here. People who are interested can find details on
-          internal pages.
+        <p className="usa-intro">
+        The Technology Transformation Services (TTS) mission is to design and deliver a digital government with and for the American public. TTS is part of the General Services Administration (GSA).
+
+We are accepting applications for the positions listed below. We also post upcoming positions. <Link to="/newsletter">Join our mailing list</Link> to be notified when we post new jobs.
         </p>
       </div>
     </div>
